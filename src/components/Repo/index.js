@@ -31,9 +31,9 @@ const Repo = (props) => {
     return (
         <div>
 
-            <input type="text" placeholder="Enter the Organisation's name" value ={localowner? localowner : ""} onChange ={updateOwner} />
+            <input type="text" placeholder="Enter the Organisation's name" value ={localowner? localowner : ""} onChange ={updateOwner} size="40" />
             <br />
-            <input type="text" placeholder ="Enter the Repo's Name "  value = {localrepo?localrepo:""} onChange = {updateRepo}/>
+            <input type="text" placeholder ="Enter the Repo's Name "  value = {localrepo?localrepo:""} onChange = {updateRepo} size="40"/>
             <br />
             <button onClick = {handleClick}>Search</button>
             
