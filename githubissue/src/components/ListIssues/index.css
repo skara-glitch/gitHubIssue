@@ -1,0 +1,25 @@
+.issues{
+
+    font-weight: bold;
+    height: 40px;
+    background-color:#FFFFFF;
+    border: 2px solid #E1E4E8;
+    padding: 5px;
+    
+}
+
+li:hover{
+    background-color: #144f8a;
+}
+
+.logo{
+    fill: #59A46B;
+    margin-right: 2px;
+}
+
+#extraDetails{
+    padding-left : 23px;
+    font-size: 12px;
+    color: #586069;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+}

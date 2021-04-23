@@ -1,0 +1,33 @@
+
+#menubar-1{
+    display: flex;
+    list-style: none;
+    justify-content: start;
+    align-items: baseline;
+}
+
+.search input{
+    background: #24292E;
+    size:75px;
+    width: 180px;
+    height: 27px;
+    border: 2px solid #888C8E; 
+    border-radius: 10px;
+}
+.link{
+    display: flex;
+    justify-self: self-start;
+    margin: 10px;
+    color:white;
+    text-decoration: none;
+}
+
+#menubar,#hidden{
+    background: #24292E;
+    height: 62px;
+    margin:-16px;
+    margin-left: -36px;
+}
+#hidden{
+    display: none;
+}
